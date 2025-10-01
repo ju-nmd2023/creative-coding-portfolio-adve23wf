@@ -7,14 +7,13 @@ const size = 30;
 const amount = 5;
 const amount2 = 20;
 const gap = 20;
-let color1 = color(255, 25, 46);
-let color2 = color(255, 96, 255);
+const move = 5;
 
 function draw() {
-  //Code inspired by https://codepen.io/pixelkind/pen/bGOEmaV
+  // Code inspired by https://codepen.io/pixelkind/pen/bGOEmaV
   //Code inspired by https://youtu.be/mCZ76eymEKU?si=XCaWnbxoSKC_uoN_
-  //Code for color inspired by: https://youtu.be/mGsYV9jt010?si=BdKlvMDeix-BowJ5
   rectMode(CENTER);
+  fill(0, 0, 139);
 
   let y = (height - size * amount2) / 2;
 
@@ -23,18 +22,13 @@ function draw() {
 
     for (j = 0; j < amount; j++) {
       push();
-      let rot = pow(random(-(i / amount2), i / amount2), 2) * size;
-      let rot2 = pow(random(-(i / amount2), i / amount2), 2) * size;
+      let rot = pow(random(-(i / amount2), i / amount2) * 6, 2) * size;
+      let rot2 = pow(random(-(i / amount2), i / amount2) * 4, 2) * size;
       translate(x + rot, y + rot2);
       //  let rotation = random(0, HALF_PI * pow(-i / amount2) * 2);
-      let rotation = random(0, PI * (-i / amount2));
+      let rotation = random(0, HALF_PI * (-i / amount2));
 
       rotate(rotation);
-      fill((i / (amount2 - 1)) * 255, 200);
-      stroke((i / (amount2 - 1)) * 255, 200);
-      //fill((i / (amount2 - 1)) * 255, 63, 45);
-      // fill((i / (amount2 - 1)) * 255, 63);
-      // fill((i / (amount2 - 1)) * 255, 63, 200,90);
       square(0, 0, size);
       x += size;
       pop();

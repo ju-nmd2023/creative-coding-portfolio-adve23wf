@@ -5,13 +5,13 @@ function setup() {
 
 function draw() {
   background(255, 255, 255);
-  // inspiration from: https://editor.p5js.org/emmajaneculhane/sketches/byLzv7uNz
 
-  for (let y = 20; y < height; y = y + 20) {
-    for (let x = 20; x < width; x = x + 20) {
-      line(x, y, random(width), random(height));
-    }
+  // Code inspiration from: https://editor.p5js.org/amcc/sketches/y9kCapTaZ
+  stroke(0, random(255));
+
+  for (i = 0; i < 5000; i++) {
+    line(random(width), random(height), random(width), random(height));
   }
-
-  noLoop();
+  //noLoop();
 }
+//noLoop();

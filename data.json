@@ -1,7 +1,85 @@
 [
   {
     "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Random lines",
+    "description": "The art is inspired by Vera Molnar. In this example, I played with randomness, and every time you reload the page, the lines appear in a different place on the canvas and create a different shape."
+  },
+
+  {
+    "file": "experiments/chaoslineupgrade.js",
+    "name": "Random lines inspired by Vera Molnar",
+    "description": "Every rectangle has a different art of lines, changing every time you load the page."
+  },
+
+  {
+    "file": "experiments/linechaos.js",
+    "name": "Random lines in movement",
+    "description": "Allowing lines to loop and make them look like an old TV screen."
+  },
+
+  {
+    "file": "experiments/daisy2.js",
+    "name": "Flowers inspired by Tyler Hobbs",
+    "description": "I recreated the idea of Tyler Hoobs that shows a grid of flowers that are different in every cell. These flowers confirm that nothing is the same and everybody can be slightly different."
+  },
+
+  {
+    "file": "experiments/flowers.js",
+    "name": "Flower wallpaper inspired by Tyler Hobbs",
+    "description": "Making a wallpaper from different colors and shapes of flowers. The shape of the petal is more related to the original Tyler Hobbs daisy art."
+  },
+
+  {
+    "file": "experiments/ractangle2.js",
+    "name": "Rectangle art inspired by Georg Nees",
+    "description": "Recreation of the rectangle art going to one side, creating an illusion of flying away."
+  },
+
+  {
+    "file": "experiments/rectangles.js",
+    "name": "Rectangle art inspired by Georg Nees with a color grid",
+    "description": "The art is more similar to the original Georg Nees' art piece, but with a color grid with a thought of disappearing rectangles. "
+  },
+
+  {
+    "file": "experiments/rectangles_update.js",
+    "name": "Rectangle art",
+    "description": "Playing with a color grid and randomness, giving a little 3D effect"
+  },
+
+  {
+    "file": "experiments/flowfield.js",
+    "name": "Flow field ",
+    "description": "Played with values and created this more geometrical type of flow field from a class example"
+  },
+
+  {
+    "file": "experiments/flow_update.js",
+    "name": "Smoother Flow field",
+    "description": "Created a smoother flow field with different colors based on line position at the moment"
+  },
+
+  {
+    "file": "experiments/flow.js",
+    "name": "Flow field in rectangle",
+    "description": "More smother flow field in a smaller rectangle, creating a look of aurora"
+  },
+
+  {
+    "file": "experiments/waves.js",
+    "name": "Wave",
+    "description": "Sinus waves made in a circle that changes its shape and size"
+  },
+
+  {
+    "file": "experiments/waves2.js",
+    "name": "Multiple waves",
+    "description": "Adding additional waves to make different shapes "
+  },
+
+  {
+    "file": "experiments/toneExample.js",
+    "name": "Sound",
+    "description": "The tone.js gives a random note and creates a wave. "
   }
 ]
